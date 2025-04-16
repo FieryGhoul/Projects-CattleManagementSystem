@@ -180,5 +180,3 @@ The system ensures data integrity through:
 5. **Audit**: Log all changes with checksums
 
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
