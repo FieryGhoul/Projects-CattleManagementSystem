@@ -75,7 +75,6 @@ The system uses the following database tables:
 ### Technologies Used
 - **Programming Language**: Java 17+
 - **UI Framework**: JavaFX
-- **Database**: SQL (compatible with MySQL/PostgreSQL)
 - **Security**: SHA-256 for checksums and password hashing
 - **Build Tool**: Maven/Gradle
 
@@ -89,7 +88,6 @@ The system uses the following database tables:
 
 ### Prerequisites
 - Java Development Kit (JDK) 17 or higher
-- MySQL/PostgreSQL database
 - Maven or Gradle for dependency management
 
 ### Setup Instructions
@@ -98,19 +96,12 @@ The system uses the following database tables:
    git clone https://github.com/yourusername/cattle-management-system.git
    ```
 
-2. Configure database connection in `database.properties`:
-   ```
-   db.url=jdbc:mysql://localhost:3306/cms_db
-   db.user=your_username
-   db.password=your_password
-   ```
-
-3. Build the project:
+2. Build the project:
    ```
    mvn clean install
    ```
 
-4. Run the application:
+3. Run the application:
    ```
    java -jar target/cms-1.0.jar
    ```
@@ -188,11 +179,6 @@ The system ensures data integrity through:
 4. **Regeneration**: Create new checksum after modifications
 5. **Audit**: Log all changes with checksums
 
-## Contributors
-- [Your Name] - Project Lead
-- [Team Member 1] - Backend Developer
-- [Team Member 2] - UI/UX Designer
-- [Team Member 3] - Database Specialist
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
